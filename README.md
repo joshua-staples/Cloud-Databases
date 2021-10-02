@@ -39,3 +39,7 @@ Language/Libraries:
 * Better printing of passwords
 * Integration into a web-app interface
 
+### Contact
+
+sta16016@byui.edu
+
