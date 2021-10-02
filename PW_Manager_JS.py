@@ -53,7 +53,7 @@ def add_password():
     user_name = input('Enter Username: ')
     password = input('Enter Password: ')
     password_ref.document(f'{name}').set({'Username':f'{user_name}', 'Password':f'{password}'})
-    print("Password saved!" + '\n')
+    print("Password saved!  \n")
     
 # a function to delete passwords, preferably it will list the name of all the available passwords in the vault for them to select one to delete.
 # could even prompt if they want a list or if they want to type in the name themselves.
@@ -67,7 +67,7 @@ def delete_password():
             final_check = input(f'Do you want to delete saved data for password named...{password_name}? [y][n]: ')
             if final_check == 'y':
                 db.collection('Passwords').document(f'{password_name}').delete()
-                print("Password deleted! + \n") 
+                print("Password deleted! \n") 
             elif final_check == 'n':
                 delete_password()
         else:
@@ -88,7 +88,7 @@ def delete_password():
             final_check = input(f'Do you want to delete saved data for password named...{password_name}? [y][n]: ')
             if final_check == 'y':
                 db.collection('Passwords').document(f'{password_name}').delete()
-                print("Password deleted! + \n")
+                print("Password deleted! \n")
             elif final_check == 'n':
                 delete_password()
     elif name_list_exit == 'e':
@@ -102,7 +102,7 @@ def update_password():
         user_name = input("Enter new Username: ")
         password = input("Enter new Password: ")
         db.collection('Passwords').document(f'{selection}').set({'Username':f'{user_name}', 'Password':f'{password}'})
-        print("Username/Password updated successfully! + \n")
+        print("Username/Password updated successfully! \n")
     else:
         print("No such login exists!")
 

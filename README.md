@@ -8,9 +8,7 @@ My project uses command line prompt to get user input and then store that input.
 
 My purpose for writing this software was to create an achieveable project to complete in a two week time frame. Password managers already exist in many different forms, however, they are still a great tool for learning about how a cloud database functions. 
 
-**{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}**
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Iev7sPTmaxY)
 
 # Cloud Database
 
